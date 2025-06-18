@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.fundo {
+    background-color: black;
+    width: 100vw;
+    height: 90vh;
+    position: fixed;
+    opacity: 60%;
+    z-index: 1;
+}
+
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    background-color: #0a0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 b {
+    color: red;
+}
+
+ h1 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+    position: relative;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: red;
+    transition: width 0.3s;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    background-image: url(https://www.portaldovaletudo.com.br/wp-content/uploads/2024/10/brasileiro-alexandre-pantoja-conquista-o-cinturao-do-ufc-scaled.jpg);
+}
+
+.corpo h1 {
+    margin-top: 10vh;
+    text-align: center;
+    z-index: 2;
+}
+
+.corpo p {
+    color: white;
+    margin-top: 5vh;
+    max-width: 30vw;
+    text-align: center;
+    font-size: 1.5rem;
+    z-index: 2;
+}
+
+form {
+    z-index: 2;
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixaInput {
+    width: 20vw;
+    height: 4vh;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #0a0a0a;
+}
+
+.entrar {
+    width: 6vw;
+    height: 2.5vw;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.entrar:hover {
+    transition: 0.5s;
+    scale: 1.2;
+}
+
+footer {
+    position: fixed;
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+    border-top: 2px solid red;
+    z-index: 10;
+    bottom: 0px;
+    color: white;
+}
+
+footer h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.logo {
+    background-color: red;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.logo img {
+    width: 3.5vh;
+    height: 3.5vh;
+}
+
+.gmail:hover {
+    background-color: white;
+    transition: 0.5s;
+    scale: 1.2;
+}
+
+.discord:hover {
+    background-color: #5865f2;
+    transition: 0.5s;
+    scale: 1.2;
+}
+
+.github:hover {
+    background-color: #30a652;
+    transition: 0.5s;
+    scale: 1.2;
+}
