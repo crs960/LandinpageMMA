@@ -105,8 +105,13 @@ form {
     font-size: 1.1rem;
     border-radius: 50px;
     border: none;
-    color: white;
+    color: red;
     background-color: #0a0a0a;
+}
+
+.caixaInput:focus {
+    outline: none;
+    border: 2px solid red;
 }
 
 .entrar {
