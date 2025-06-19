@@ -72,7 +72,7 @@ h1 b {
     flex-direction: column;
     align-items: center;
     height: 80vh;
-    background-image: url(https://www.portaldovaletudo.com.br/wp-content/uploads/2024/10/brasileiro-alexandre-pantoja-conquista-o-cinturao-do-ufc-scaled.jpg);
+    background-image: url(sprites/brasileiro-alexandre-pantoja-conquista-o-cinturao-do-ufc-scaled.jpg);
 }
 
 .corpo h1 {
@@ -169,17 +169,17 @@ footer h2 {
 .gmail:hover {
     background-color: white;
     transition: 0.5s;
-    scale: 1.2;
+    margin-top: -20px;
 }
 
 .discord:hover {
     background-color: #5865f2;
     transition: 0.5s;
-    scale: 1.2;
+    margin-top: -20px;
 }
 
 .github:hover {
     background-color: #30a652;
     transition: 0.5s;
-    scale: 1.2;
+    margin-top: -20px;
 }
